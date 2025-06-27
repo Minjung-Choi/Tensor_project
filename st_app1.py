@@ -24,6 +24,5 @@ st.latex("\int a x^2 \,dx")
 
 name = st.text_input("이름")
 
-print(name)
 
 st.write(name)

@@ -1,11 +1,17 @@
-.venv
-
-*.pyc
+# Python
 __pycache__/
-/__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
 
-*.csv
-*.exe
-*.xls
-*.xlsx
-.env
+# Virtual environment
+myenv/
+venv/
+.env/
+.envrc
+
+# VS Code
+.vscode/
+
+# Jupyter
+*.checkpoint.ipynb
